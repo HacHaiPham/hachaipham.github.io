@@ -79,6 +79,10 @@ input, select, textarea {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+		
+	}
+	.row figcaption {
+  		display: none;
 	}
 
 		.row > * {
@@ -323,6 +327,7 @@ input, select, textarea {
 				box-sizing: border-box;
 				align-items: stretch;
 			}
+
 
 				.row > * {
 					box-sizing: border-box;
@@ -2189,3 +2194,15 @@ input, select, textarea {
 			}
 
 		}
+
+		.notransition * { 
+  -webkit-transition: none !important; 
+  -moz-transition: none !important; 
+  -o-transition: none !important; 
+  -ms-transition: none !important; 
+  transition: none !important; 
+} 
+
+}
+
+}
