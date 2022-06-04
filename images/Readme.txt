@@ -1,0 +1,1 @@
+For resizing use bicubic smooth
